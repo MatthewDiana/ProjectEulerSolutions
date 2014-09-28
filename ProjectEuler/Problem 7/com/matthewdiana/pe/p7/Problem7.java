@@ -32,9 +32,10 @@ public class Problem7 {
 
 		// Brute force solution to the problem. No CRT used here.
 		while (count != 10001) {
-			boolean prime = true;
 			currentNum++;
-			for (int i = 2; i < currentNum; i++) {
+			boolean prime = true;
+			int squareRootCurrentNum = (int) Math.sqrt(currentNum) + 1;
+			for (int i = 2; i < squareRootCurrentNum; i++) {
 				if (currentNum % i == 0) {
 					prime = false;
 					break;
