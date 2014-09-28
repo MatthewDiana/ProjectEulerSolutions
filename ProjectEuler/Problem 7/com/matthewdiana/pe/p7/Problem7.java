@@ -28,10 +28,10 @@ public class Problem7 {
 
 	public static void main (String[] args) {
 		
-		int currentCount = 0, currentNum = 1;
+		int count = 0, currentNum = 1;
 
 		// Brute force solution to the problem. No CRT used here.
-		while (currentCount != 10001) {
+		while (count != 10001) {
 			boolean prime = true;
 			currentNum++;
 			for (int i = 2; i < currentNum; i++) {
@@ -42,7 +42,7 @@ public class Problem7 {
 			}
 			
 			if (prime) 
-				currentCount++;
+				count++;
 			
 		}
 		
