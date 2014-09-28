@@ -43,7 +43,6 @@ public class Problem7 {
 			
 			if (prime) 
 				count++;
-			
 		}
 		
 		System.out.println(currentNum);
