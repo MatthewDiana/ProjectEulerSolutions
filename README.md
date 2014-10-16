@@ -3,8 +3,6 @@ ProjectEulerSolutions
 
 My personal solutions to various Project Euler (https://projecteuler.net/) problems written in Java.
 
-You can view my current status at https://projecteuler.net/progress=MatthewDiana
-
 License
 =======
 
